@@ -1,0 +1,12 @@
+.aanmelden-submit-button{
+    background-color: orange !important;
+    border: orange;
+}
+
+.aanmelding-container{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    margin-top: 100px;
+    transform: translateX(-50%);
+}

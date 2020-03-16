@@ -1,0 +1,38 @@
+/* BOOTSTRAP */
+.btn-primary{
+    background-color: orange !important;
+    border: orange !important;
+}
+
+
+
+
+
+
+
+/* REMOVE SCROLLBAR POPULAIR BROWSERS */
+body::-webkit-scrollbar{
+    display: none !important;
+}
+
+/* REMOVE SCROLLBAR IE & EDGE */
+-webkit-scrollbar {
+    -ms-overflow-style: none !important;
+}
+
+
+/* A HREF / LINKS */
+a{
+    color: orange;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: rgb(230, 150, 0);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.content-devider{
+    margin: 50px 0px;
+}

@@ -1,0 +1,25 @@
+.brand{
+    margin: 2vh;
+    font-size: 50px;
+    color: orange;
+    font-family: 'Pacifico', cursive;
+    transition: 0.5s;
+}
+
+.brand:hover{
+    color: rgb(230, 150, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container img{
+    margin: 5% 0vw;
+
+    width: 25vw;
+    height: auto;
+}

@@ -1,0 +1,12 @@
+.footer{
+    background-color: #f8f9fa;
+    border-top: solid 1px #f2f2f2;
+    color: #7c7c7d;
+    padding: 10px;
+    vertical-align: middle;
+
+    position:fixed;
+    top:100vh;
+    transform:translateY(-100%);
+    width:100%;
+}

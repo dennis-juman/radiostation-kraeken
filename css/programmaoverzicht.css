@@ -1,0 +1,39 @@
+.programmaoverzicht{
+        width: 50vw;
+        margin: auto;
+        margin-top: 100px;
+}
+
+.programmaoverzicht-titel{
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 0px;
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.geen-programma{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.geen-programma span{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    align-items: center;
+}
+
+.weizig-programma, .verwijder-programma{
+    color: orange;
+    cursor:pointer;
+}

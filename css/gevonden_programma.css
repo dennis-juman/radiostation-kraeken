@@ -1,0 +1,48 @@
+.programma-zoekopdracht-container{
+  width: 50%;
+  margin:auto;
+}
+
+
+.programma-zoekopdracht-header{
+    display: inline-block;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+
+.geen-zoekterm-container{
+    width: 100%;
+    position: relative;
+    bottom: -25vh;
+}
+
+/* ERROR ZOEKTERM NIET GEVONDEN */
+.geen-zoekterm-container div{
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    background-color: #f8f9fa;
+
+
+    margin-top: 0px;
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.detailoverzicht{
+    color: orange;
+    cursor: pointer;
+}

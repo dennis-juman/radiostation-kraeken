@@ -1,0 +1,1 @@
+<a class="brand" href="../index.php">Kraeken en Krønen</a>

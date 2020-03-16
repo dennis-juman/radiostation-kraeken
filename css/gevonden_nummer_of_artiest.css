@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    margin: 100px auto;
+}
+
+.playlist-header, .artiest-header{
+    font-size: x-large;
+    color: orange;
+
+    padding: 20px;
+
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+    background-color: #f8f9fa;
+    border-radius: 10px;
+
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.geen-zoekresultaat-gevonden div{
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    color: orange;
+    font-weight: bolder;
+}
+
+.invoer-is-leeg{
+    width: 100%;
+    position: relative;
+    bottom: -25vh;
+}
+
+.invoer-is-leeg div{
+    border-radius: 10px;
+    background-color: #f8f9fa;
+
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 20px;
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+}
+
+.zoek-inputs{
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+.nummer-form-container{
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 150px;
+}
