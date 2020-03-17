@@ -1,10 +1,15 @@
 <?php 
     require_once 'layout/head.php';
+
+    //CONTROLEER OF DE GEBRUIKER TOEGANG HEEFT TOT DE PAGINA
+    if(!isset($_SESSION['login_username'])){
+        die("Je hebt geen toegang tot deze pagina.");
+    }
+
     require_once 'layout/brand.php';
     require_once 'layout/navbar.php';
 
 
-    
 
     //VERBIND MET DE DATABASE
     require 'php/class/dbconnection.php';
