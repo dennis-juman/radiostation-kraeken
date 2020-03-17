@@ -48,8 +48,6 @@
         }
     } echo $dynamic_query .= " WHERE id = ?";
 
-    PRINT_R($execute_values);
-    
     //WIJZIG DE ZENDER
     $query = $dbh->connect()->prepare($dynamic_query);
     $query->execute($execute_values);

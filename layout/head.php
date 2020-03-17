@@ -34,6 +34,7 @@
       <link rel="stylesheet" href="../css/detailoverzicht.css">
       <link rel="stylesheet" href="../css/gevonden_nummer_of_artiest.css">
       <link rel="stylesheet" href="../css/gevonden_programma.css">
+      <link rel="stylesheet" href="../css/medewerker.css">
       <title>Kraeken en Krønen</title>
     </head>
   <body>

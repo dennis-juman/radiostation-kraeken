@@ -12,6 +12,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <?php
                             if(isset($_SESSION['login_username'])){
+                                echo '<a class="dropdown-item" href="medewerker.php">Medewerkers</a>';
                                 echo '<a class="dropdown-item" href="index.php?uitloggen=uitloggen">Uitloggen</a>';
                             } else{
                                 echo '<a class="dropdown-item" href="login.php">Aanmelden</a>

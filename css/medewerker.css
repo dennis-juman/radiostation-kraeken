@@ -1,0 +1,69 @@
+.invoer-container, .medewerker-container{
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.form-groep, .gestreepte-tabel{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-groep{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.gestreepte-tabel{
+    padding: 20px;
+}
+
+.verstuur-knopje{
+    margin: 50px !important;
+    margin-left: 0px !important;
+}
+
+.medewerker-form-caption div{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.geen-medewerkers{
+    margin-top: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 0px;
+    border-radius: 10px;
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.medewerker-form-caption{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 0px;
+    border-radius: 10px;
+}
+
+.links{
+    color: orange;
+    cursor: pointer;
+}
